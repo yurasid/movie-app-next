@@ -11,7 +11,7 @@ export default async function CinemasPage() {
         {cinemas.map((cinema) => (
           <div key={cinema.name} className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4">
             <Image className="pb-3" alt={cinema.name} src={cinema.profileImageUrl} width={300} height={20} />
-            <h2 className=" text-xl font-semibold mb-2">{cinema.name}</h2>
+            <h2 className=" text-xl text-black font-semibold mb-2">{cinema.name}</h2>
             <p className="text-gray-700">{cinema.address}</p>
             <p className="text-gray-500">{cinema.city}</p>
             <p className="text-gray-700 mt-4">
